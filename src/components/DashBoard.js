@@ -26,7 +26,8 @@ function Dashboard() {
             <FiUser className="icon" />
             <p>User</p>
           </NavLink>
-          <NavLink to="/settings" className="menu-item" activeClassName="active">  
+          <NavLink to="/settings" className="menu-item" activeClassName="active"> 
+          <FiSettings className="icon" />
             <p>Settings</p>
           </NavLink>
         </div>
