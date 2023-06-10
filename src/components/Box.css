@@ -1,0 +1,57 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* This will center the boxes vertically */
+    margin-top: 30px; /* Adjust this to add more space at the top */
+    width: 100%;
+    height: calc(100vh - 40px); /* Adjust this value to fit the header and sidebar, etc. */
+  }
+  
+  .info-box {
+    width: 23%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+  }
+  
+  .info-box-1 {
+    background-color: #f1c40f;
+  }
+  
+  .info-box-2 {
+    background-color: #e74c3c;
+  }
+  
+  .info-box-3 {
+    background-color: #2ecc71;
+  }
+  
+  .info-box-4 {
+    background-color: #3498db;
+  }
+  
+  .icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .info-box p {
+    margin: 0;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .info-box h2 {
+    margin-top: 10px;
+    font-size: 2em;
+    color: #333;
+  }
+  

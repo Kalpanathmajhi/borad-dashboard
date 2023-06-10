@@ -1,6 +1,7 @@
 import React from 'react';
 import { FiBell, FiHome, FiDollarSign, FiCalendar, FiUser, FiSettings, FiHelpCircle, FiPhone } from 'react-icons/fi';
 import { NavLink } from 'react-router-dom';
+import Box from './Box';
 import './DashBoard.css';
 
 function Dashboard() {
@@ -13,25 +14,24 @@ function Dashboard() {
             <FiHome className="icon" />
             <p>Dashboard</p>
           </NavLink>
-          <NavLink to="/transactions" className="menu-item" activeClassName="active">  {/* Add NavLink */}
+          <NavLink to="/transactions" className="menu-item" activeClassName="active">  
             <FiDollarSign className="icon" />
             <p>Transactions</p>
           </NavLink>
-          <NavLink to="/schedules" className="menu-item" activeClassName="active">  {/* Add NavLink */}
+          <NavLink to="/schedules" className="menu-item" activeClassName="active">  
             <FiCalendar className="icon" />
             <p>Schedules</p>
           </NavLink>
-          <NavLink to="/user" className="menu-item" activeClassName="active">  {/* Add NavLink */}
+          <NavLink to="/user" className="menu-item" activeClassName="active">  
             <FiUser className="icon" />
             <p>User</p>
           </NavLink>
-          <NavLink to="/settings" className="menu-item" activeClassName="active">  {/* Add NavLink */}
-            <FiSettings className="icon" />
+          <NavLink to="/settings" className="menu-item" activeClassName="active">  
             <p>Settings</p>
           </NavLink>
         </div>
         <div className="bottom-section">
-          <NavLink to="/help" className="menu-item" activeClassName="active">  {/* Add NavLink */}
+          <NavLink to="/help" className="menu-item" activeClassName="active"> 
             <FiHelpCircle className="icon" />
             <p>Help</p>
           </NavLink>
@@ -55,6 +55,7 @@ function Dashboard() {
           />
         </div>
       </div>
+      <Box /> {/* Box component is inserted here */}
     </div>
   );
 }
