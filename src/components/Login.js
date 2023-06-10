@@ -7,7 +7,6 @@ const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   
-  // useNavigate hook is used here
   const navigate = useNavigate(); 
 
   const handleEmailChange = (e) => {
